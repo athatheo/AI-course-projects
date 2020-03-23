@@ -1,15 +1,12 @@
-#include "/inc/cell.h"
-#include "../inc/cell.h"
+#include "../inc/Cell.h"
 
-
-void cell::getNumber() {
+int Cell::getNumber() {
     return number;
 }
-
-void cell::setNumber(int number) {
+void Cell::setNumber(int number) {
     if (number > 0 && number < 9) {
-        this.number = number;
+        this->number = number;
     } else {
-        cout << "Number is out of range"
+        std::cout << "Number is out of range" << std::endl;
     }
 }
