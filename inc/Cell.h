@@ -10,8 +10,9 @@ class cell {
 protected:
     int number;
 
-
+public:
     void setNumber(int number);
+    int getNumber();
 
 };
 

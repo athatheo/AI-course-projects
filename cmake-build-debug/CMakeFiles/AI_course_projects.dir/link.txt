@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/AI_course_projects.dir/main.cpp.o  -o AI_course_projects 

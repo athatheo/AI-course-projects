@@ -5,7 +5,7 @@
 #ifndef AI_COURSE_PROJECTS_TABLE_H
 #define AI_COURSE_PROJECTS_TABLE_H
 
-#include "/inc/cell.h"
+#include "Cell.h"
 class table {
     cell[][] cells;
 

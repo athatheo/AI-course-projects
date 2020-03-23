@@ -1,0 +1,3 @@
+/home/athanasios/CLionProjects/AI-course-projects/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/athanasios/CLionProjects/AI-course-projects/cmake-build-debug/CMakeFiles/AI_course_projects.dir
+/home/athanasios/CLionProjects/AI-course-projects/cmake-build-debug/CMakeFiles/edit_cache.dir
