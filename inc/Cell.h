@@ -1,16 +1,16 @@
-//
-// Created by athanasios on 23/03/2020.
-//
-
 #ifndef AI_COURSE_PROJECTS_CELL_H
 #define AI_COURSE_PROJECTS_CELL_H
+#include <iostream>
 
 
-class cell {
+class Cell {
 protected:
     int number;
-
 public:
+    Cell() = default;
+    explicit Cell (int number) {
+        this->number = number;
+    }
     void setNumber(int number);
     int getNumber();
 
