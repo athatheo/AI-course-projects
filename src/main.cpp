@@ -2,8 +2,6 @@
 // Created by athanasios on 23/03/2020.
 //
 
-#include "main.h"
+#include "/inc/main.h"
 
-class main{
 
-};

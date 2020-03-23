@@ -6,11 +6,14 @@
 #define AI_COURSE_PROJECTS_CELL_H
 
 
-
 class cell {
+protected:
+    int number;
+
+
+    void setNumber(int number);
 
 };
-
 
 
 #endif //AI_COURSE_PROJECTS_CELL_H

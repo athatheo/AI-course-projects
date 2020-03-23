@@ -5,10 +5,10 @@
 #ifndef AI_COURSE_PROJECTS_MAIN_H
 #define AI_COURSE_PROJECTS_MAIN_H
 
+int main() {
 
-class main {
+}
 
-};
 
 
 #endif //AI_COURSE_PROJECTS_MAIN_H
