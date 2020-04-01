@@ -5,14 +5,14 @@
 
 class Cell {
 protected:
-    int number;
+    char number;
 public:
     Cell() = default;
-    explicit Cell (int number) {
+    explicit Cell (char number) {
         this->number = number;
     }
-    void setNumber(int number);
-    int getNumber();
+    void setNumber(char number);
+    char getNumber();
 
 };
 
