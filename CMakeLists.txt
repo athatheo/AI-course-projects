@@ -3,4 +3,8 @@ project(AI_course_projects)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(AI_course_projects main.cpp)
+add_executable(AI_course_projects
+        main.cpp
+        src/Cell.cpp
+        src/Table.cpp
+        src/Heuristics.cpp)
