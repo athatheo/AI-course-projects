@@ -33,6 +33,7 @@ public:
     bool existsInVisited(Table possibleState);
     void addToVisited(Table currentState);
     int evaluateStateBestFirst(Table state);
+    int evaluateStateAstar(Table state);
 };
 
 

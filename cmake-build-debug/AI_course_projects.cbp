@@ -87,6 +87,15 @@
 		<Unit filename="/home/athanasios/CLionProjects/AI-course-projects/main.cpp">
 			<Option target="AI_course_projects"/>
 		</Unit>
+		<Unit filename="/home/athanasios/CLionProjects/AI-course-projects/src/Cell.cpp">
+			<Option target="AI_course_projects"/>
+		</Unit>
+		<Unit filename="/home/athanasios/CLionProjects/AI-course-projects/src/Heuristics.cpp">
+			<Option target="AI_course_projects"/>
+		</Unit>
+		<Unit filename="/home/athanasios/CLionProjects/AI-course-projects/src/Table.cpp">
+			<Option target="AI_course_projects"/>
+		</Unit>
 		<Unit filename="/home/athanasios/CLionProjects/AI-course-projects/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

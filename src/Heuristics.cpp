@@ -34,7 +34,7 @@ Table Heuristics::popFromFrontierBestFirst() {
     int positionOfBest;
     int position = 0;
     for (Table table : evaluatedChildren) {
-        if (table.evaluationScore < score) {
+        if (table.evaluationScore <= score) {
             score = table.evaluationScore;
             positionOfBest = position;
             bestNextState = table;
@@ -47,9 +47,37 @@ Table Heuristics::popFromFrontierBestFirst() {
 
 int Heuristics::evaluateStateBestFirst(Table currentState) {
     int distance = 0;
+    int number = 0;
     for(int i = 0; i < HEIGHT; i++) {
         for (int j = 0; j < WIDTH; j++) {
-            int number = currentState.table[i][j].getNumber() - '0';
+            if (currentState.table[i][j].getNumber()  != ' ') {
+                number = currentState.table[i][j].getNumber() - '0';
+                distance += (abs(i - (number-1)/3) + abs(j - (number-1)%3) ) ;
+            }
+        }
+    }
+    return distance;
+}
+
+int Heuristics::evaluateStateAstar(Table currentState) {
+    int distance = 0;
+    Table initialTable = Table();
+    int number = 0;
+    for(int i = 0; i < HEIGHT; i++) {
+        for (int j = 0; j < WIDTH; j++) {
+            if (currentState.table[i][j].getNumber()  != ' ') {
+                number = currentState.table[i][j].getNumber() - '0';
+                distance += (abs(i - (number-1)/3) + abs(j - (number-1)%3) ) ;
+            }
+            distance += (abs(i - (number-1)/3) + abs(j - (number-1)%3) ) ;
+        }
+    }
+    for(int i = 0; i < HEIGHT; i++) {
+        for (int j = 0; j < WIDTH; j++) {
+            if (currentState.table[i][j].getNumber()  != ' ') {
+                number = currentState.table[i][j].getNumber() - '0';
+                distance += (abs(i - (number-1)/3) + abs(j - (number-1)%3) ) ;
+            }
             distance += (abs(i - (number-1)/3) + abs(j - (number-1)%3) ) ;
         }
     }

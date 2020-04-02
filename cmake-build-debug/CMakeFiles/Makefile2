@@ -74,12 +74,12 @@ preinstall:
 CMakeFiles/AI_course_projects.dir/all:
 	$(MAKE) -f CMakeFiles/AI_course_projects.dir/build.make CMakeFiles/AI_course_projects.dir/depend
 	$(MAKE) -f CMakeFiles/AI_course_projects.dir/build.make CMakeFiles/AI_course_projects.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/athanasios/CLionProjects/AI-course-projects/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target AI_course_projects"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/athanasios/CLionProjects/AI-course-projects/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target AI_course_projects"
 .PHONY : CMakeFiles/AI_course_projects.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/AI_course_projects.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/athanasios/CLionProjects/AI-course-projects/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/athanasios/CLionProjects/AI-course-projects/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/AI_course_projects.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/athanasios/CLionProjects/AI-course-projects/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/AI_course_projects.dir/rule

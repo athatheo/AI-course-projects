@@ -70,17 +70,62 @@ CMakeFiles/AI_course_projects.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AI_course_projects.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/athanasios/CLionProjects/AI-course-projects/main.cpp -o CMakeFiles/AI_course_projects.dir/main.cpp.s
 
+CMakeFiles/AI_course_projects.dir/src/Cell.cpp.o: CMakeFiles/AI_course_projects.dir/flags.make
+CMakeFiles/AI_course_projects.dir/src/Cell.cpp.o: ../src/Cell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/athanasios/CLionProjects/AI-course-projects/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AI_course_projects.dir/src/Cell.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AI_course_projects.dir/src/Cell.cpp.o -c /home/athanasios/CLionProjects/AI-course-projects/src/Cell.cpp
+
+CMakeFiles/AI_course_projects.dir/src/Cell.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AI_course_projects.dir/src/Cell.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/athanasios/CLionProjects/AI-course-projects/src/Cell.cpp > CMakeFiles/AI_course_projects.dir/src/Cell.cpp.i
+
+CMakeFiles/AI_course_projects.dir/src/Cell.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AI_course_projects.dir/src/Cell.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/athanasios/CLionProjects/AI-course-projects/src/Cell.cpp -o CMakeFiles/AI_course_projects.dir/src/Cell.cpp.s
+
+CMakeFiles/AI_course_projects.dir/src/Table.cpp.o: CMakeFiles/AI_course_projects.dir/flags.make
+CMakeFiles/AI_course_projects.dir/src/Table.cpp.o: ../src/Table.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/athanasios/CLionProjects/AI-course-projects/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AI_course_projects.dir/src/Table.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AI_course_projects.dir/src/Table.cpp.o -c /home/athanasios/CLionProjects/AI-course-projects/src/Table.cpp
+
+CMakeFiles/AI_course_projects.dir/src/Table.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AI_course_projects.dir/src/Table.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/athanasios/CLionProjects/AI-course-projects/src/Table.cpp > CMakeFiles/AI_course_projects.dir/src/Table.cpp.i
+
+CMakeFiles/AI_course_projects.dir/src/Table.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AI_course_projects.dir/src/Table.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/athanasios/CLionProjects/AI-course-projects/src/Table.cpp -o CMakeFiles/AI_course_projects.dir/src/Table.cpp.s
+
+CMakeFiles/AI_course_projects.dir/src/Heuristics.cpp.o: CMakeFiles/AI_course_projects.dir/flags.make
+CMakeFiles/AI_course_projects.dir/src/Heuristics.cpp.o: ../src/Heuristics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/athanasios/CLionProjects/AI-course-projects/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/AI_course_projects.dir/src/Heuristics.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AI_course_projects.dir/src/Heuristics.cpp.o -c /home/athanasios/CLionProjects/AI-course-projects/src/Heuristics.cpp
+
+CMakeFiles/AI_course_projects.dir/src/Heuristics.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AI_course_projects.dir/src/Heuristics.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/athanasios/CLionProjects/AI-course-projects/src/Heuristics.cpp > CMakeFiles/AI_course_projects.dir/src/Heuristics.cpp.i
+
+CMakeFiles/AI_course_projects.dir/src/Heuristics.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AI_course_projects.dir/src/Heuristics.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/athanasios/CLionProjects/AI-course-projects/src/Heuristics.cpp -o CMakeFiles/AI_course_projects.dir/src/Heuristics.cpp.s
+
 # Object files for target AI_course_projects
 AI_course_projects_OBJECTS = \
-"CMakeFiles/AI_course_projects.dir/main.cpp.o"
+"CMakeFiles/AI_course_projects.dir/main.cpp.o" \
+"CMakeFiles/AI_course_projects.dir/src/Cell.cpp.o" \
+"CMakeFiles/AI_course_projects.dir/src/Table.cpp.o" \
+"CMakeFiles/AI_course_projects.dir/src/Heuristics.cpp.o"
 
 # External object files for target AI_course_projects
 AI_course_projects_EXTERNAL_OBJECTS =
 
 AI_course_projects: CMakeFiles/AI_course_projects.dir/main.cpp.o
+AI_course_projects: CMakeFiles/AI_course_projects.dir/src/Cell.cpp.o
+AI_course_projects: CMakeFiles/AI_course_projects.dir/src/Table.cpp.o
+AI_course_projects: CMakeFiles/AI_course_projects.dir/src/Heuristics.cpp.o
 AI_course_projects: CMakeFiles/AI_course_projects.dir/build.make
 AI_course_projects: CMakeFiles/AI_course_projects.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/athanasios/CLionProjects/AI-course-projects/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable AI_course_projects"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/athanasios/CLionProjects/AI-course-projects/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable AI_course_projects"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AI_course_projects.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

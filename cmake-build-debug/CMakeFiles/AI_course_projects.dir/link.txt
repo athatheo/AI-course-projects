@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/AI_course_projects.dir/main.cpp.o  -o AI_course_projects 
+/usr/bin/c++  -g   CMakeFiles/AI_course_projects.dir/main.cpp.o CMakeFiles/AI_course_projects.dir/src/Cell.cpp.o CMakeFiles/AI_course_projects.dir/src/Table.cpp.o CMakeFiles/AI_course_projects.dir/src/Heuristics.cpp.o  -o AI_course_projects 

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/athanasios/CLionProjects/AI-course-projects/inc/Cell.h
+iostream
+-
+
+/home/athanasios/CLionProjects/AI-course-projects/src/Cell.cpp
+../inc/Cell.h
+/home/athanasios/CLionProjects/AI-course-projects/inc/Cell.h
+

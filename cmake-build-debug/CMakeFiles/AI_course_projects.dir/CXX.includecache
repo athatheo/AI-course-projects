@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/athanasios/CLionProjects/AI-course-projects/inc/Cell.h
+iostream
+-
+
+/home/athanasios/CLionProjects/AI-course-projects/inc/Heuristics.h
+unordered_map
+-
+stack
+-
+queue
+-
+vector
+/home/athanasios/CLionProjects/AI-course-projects/inc/vector
+../inc/Table.h
+/home/athanasios/CLionProjects/AI-course-projects/inc/Table.h
+
+/home/athanasios/CLionProjects/AI-course-projects/inc/Table.h
+Cell.h
+/home/athanasios/CLionProjects/AI-course-projects/inc/Cell.h
+
+/home/athanasios/CLionProjects/AI-course-projects/main.cpp
+iostream
+-
+inc/Table.h
+/home/athanasios/CLionProjects/AI-course-projects/inc/Table.h
+inc/Heuristics.h
+/home/athanasios/CLionProjects/AI-course-projects/inc/Heuristics.h
+

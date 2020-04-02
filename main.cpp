@@ -125,14 +125,53 @@ void BestFirst() {
             heuristics.addToFrontierBestFirst(possibleState);
         }
         counter++;
-        if (counter%1000 == 0) {
-            std::cout << counter << std::endl;
-        }
     }
     std::cout << "Different states visited: " << counter << std::endl;
 }
 
 void Astar() {
+    Table currentState = Table();
+    Table possibleState;
+    Heuristics heuristics = Heuristics();
+    heuristics.addToFrontierBestFirst(currentState);
+    int row;
+    int col;
+    int counter = 0;
+    while ((!currentState.equals(heuristics.targetState)) && !heuristics.evaluatedChildren.empty()){
+        currentState = heuristics.popFromFrontierBestFirst();
+        while(!heuristics.evaluatedChildren.empty() && heuristics.existsInVisited(currentState)) {
+            currentState = heuristics.popFromFrontierBestFirst();
+        }
+        if (!heuristics.evaluatedChildren.empty() && heuristics.existsInVisited(currentState)){
+            std::cout << "No solution" << std::endl;
+            break;
+        }
+        heuristics.addToVisited(currentState);
+        row = currentState.current_row;
+        col = currentState.current_col;
+        if (row - 1 >= 0) {
+            possibleState = currentState.move(Table::up, row, col);
+            possibleState.evaluationScore = heuristics.evaluateStateAstar(possibleState);
+            heuristics.addToFrontierBestFirst(possibleState);
+        }
+        if (row + 1 < 3) {
+            possibleState = currentState.move(Table::down, row, col);
+            possibleState.evaluationScore = heuristics.evaluateStateAstar(possibleState);
+            heuristics.addToFrontierBestFirst(possibleState);
+        }
+        if (col - 1 >= 0) {
+            possibleState = currentState.move(Table::left, row, col);
+            possibleState.evaluationScore = heuristics.evaluateStateAstar(possibleState);
+            heuristics.addToFrontierBestFirst(possibleState);
+        }
+        if (col + 1 < 3) {
+            possibleState = currentState.move(Table::right, row, col);
+            possibleState.evaluationScore = heuristics.evaluateStateAstar(possibleState);
+            heuristics.addToFrontierBestFirst(possibleState);
+        }
+        counter++;
+    }
+    std::cout << "Different states visited: " << counter << std::endl;
 
 }
 int main() {

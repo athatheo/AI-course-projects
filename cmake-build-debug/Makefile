@@ -150,6 +150,87 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/AI_course_projects.dir/build.make CMakeFiles/AI_course_projects.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Cell.o: src/Cell.cpp.o
+
+.PHONY : src/Cell.o
+
+# target to build an object file
+src/Cell.cpp.o:
+	$(MAKE) -f CMakeFiles/AI_course_projects.dir/build.make CMakeFiles/AI_course_projects.dir/src/Cell.cpp.o
+.PHONY : src/Cell.cpp.o
+
+src/Cell.i: src/Cell.cpp.i
+
+.PHONY : src/Cell.i
+
+# target to preprocess a source file
+src/Cell.cpp.i:
+	$(MAKE) -f CMakeFiles/AI_course_projects.dir/build.make CMakeFiles/AI_course_projects.dir/src/Cell.cpp.i
+.PHONY : src/Cell.cpp.i
+
+src/Cell.s: src/Cell.cpp.s
+
+.PHONY : src/Cell.s
+
+# target to generate assembly for a file
+src/Cell.cpp.s:
+	$(MAKE) -f CMakeFiles/AI_course_projects.dir/build.make CMakeFiles/AI_course_projects.dir/src/Cell.cpp.s
+.PHONY : src/Cell.cpp.s
+
+src/Heuristics.o: src/Heuristics.cpp.o
+
+.PHONY : src/Heuristics.o
+
+# target to build an object file
+src/Heuristics.cpp.o:
+	$(MAKE) -f CMakeFiles/AI_course_projects.dir/build.make CMakeFiles/AI_course_projects.dir/src/Heuristics.cpp.o
+.PHONY : src/Heuristics.cpp.o
+
+src/Heuristics.i: src/Heuristics.cpp.i
+
+.PHONY : src/Heuristics.i
+
+# target to preprocess a source file
+src/Heuristics.cpp.i:
+	$(MAKE) -f CMakeFiles/AI_course_projects.dir/build.make CMakeFiles/AI_course_projects.dir/src/Heuristics.cpp.i
+.PHONY : src/Heuristics.cpp.i
+
+src/Heuristics.s: src/Heuristics.cpp.s
+
+.PHONY : src/Heuristics.s
+
+# target to generate assembly for a file
+src/Heuristics.cpp.s:
+	$(MAKE) -f CMakeFiles/AI_course_projects.dir/build.make CMakeFiles/AI_course_projects.dir/src/Heuristics.cpp.s
+.PHONY : src/Heuristics.cpp.s
+
+src/Table.o: src/Table.cpp.o
+
+.PHONY : src/Table.o
+
+# target to build an object file
+src/Table.cpp.o:
+	$(MAKE) -f CMakeFiles/AI_course_projects.dir/build.make CMakeFiles/AI_course_projects.dir/src/Table.cpp.o
+.PHONY : src/Table.cpp.o
+
+src/Table.i: src/Table.cpp.i
+
+.PHONY : src/Table.i
+
+# target to preprocess a source file
+src/Table.cpp.i:
+	$(MAKE) -f CMakeFiles/AI_course_projects.dir/build.make CMakeFiles/AI_course_projects.dir/src/Table.cpp.i
+.PHONY : src/Table.cpp.i
+
+src/Table.s: src/Table.cpp.s
+
+.PHONY : src/Table.s
+
+# target to generate assembly for a file
+src/Table.cpp.s:
+	$(MAKE) -f CMakeFiles/AI_course_projects.dir/build.make CMakeFiles/AI_course_projects.dir/src/Table.cpp.s
+.PHONY : src/Table.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +243,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Cell.o"
+	@echo "... src/Cell.i"
+	@echo "... src/Cell.s"
+	@echo "... src/Heuristics.o"
+	@echo "... src/Heuristics.i"
+	@echo "... src/Heuristics.s"
+	@echo "... src/Table.o"
+	@echo "... src/Table.i"
+	@echo "... src/Table.s"
 .PHONY : help
 
 
