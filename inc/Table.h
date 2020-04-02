@@ -6,11 +6,10 @@
 #include "Cell.h"
 class Table {
 public:
-    bool flag = false;
-
     Cell table[HEIGHT][WIDTH];
     int current_row = 1;
     int current_col = 1;
+    int evaluationScore;
     Table() {
         table[0][0] = Cell('1');
         table[0][1] = Cell('3');

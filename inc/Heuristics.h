@@ -3,12 +3,15 @@
 
 #include <unordered_map>
 #include <stack>
+#include <queue>
 #include "vector"
 #include "../inc/Table.h"
 class Heuristics {
 public:
-    std::vector<Table*> visited;
+    std::vector<Table> visited;
     std::stack<Table> frontier;
+    std::queue<Table> frontierQ;
+    std::vector<Table> evaluatedChildren;
     Table targetState = Table();
     Heuristics(){
         targetState.table[0][0] = Cell('1');
@@ -21,9 +24,14 @@ public:
         targetState.table[2][1] = Cell('8');
         targetState.table[2][2] = Cell(' ');
     }
-    void addToFrontier(Table state);
-    Table popFromFrontier();
+    void addToFrontierDFS(Table state);
+    Table popFromFrontierDFS();
+    void addToFrontierBFS(Table state);
+    Table popFromFrontierBFS();
+    void addToFrontierBestFirst(Table state);
+    Table popFromFrontierBestFirst();
     bool existsInVisited(Table possibleState);
+    void addToVisited(Table currentState);
     int evaluateStateBestFirst(Table state);
 };
 
